@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    height:80px;
+    background-color: lightcoral;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style:none;
+}
+
+ul li{
+    margin:20px;
+    padding:10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 33px;
+    
+
+}
+
+a:hover{
+    background-color: rgba(45, 197, 197, 0.765);
+    color:blue;
+    font-weight:1000;
+}
+
+@media(width<1000px){
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    ul{
+        display: block;
+        background-color: antiquewhite;
+        padding: 8px;
+    }
+
+    
+}
+
+
+
